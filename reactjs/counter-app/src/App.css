@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* body{
+  background-color: rgb(33, 33, 42);
+} */
+.container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  padding: 30px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.title {
+  color: lightskyblue;
+  padding: 20px auto;
+  margin-bottom: 10px;
+}
+
+.counter {
+  font-size: 5rem;
+  margin: 10px;
+  padding: 5px;
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.controls {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 15%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-previous {
+  background-color: rgb(251, 138, 118);
+}
+
+.btn-previous:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+.btn-reset {
+  background-color: rgb(160, 244, 160);
+}
+.btn-reset:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+.btn-next {
+  background-color: lightblue;
+}
+
+.btn-next:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 20px;
+}
+
+#header {
+  border: 1px solid blue;
+  padding: 20px 10px;
+}
+
+.site-title {
+  padding: 5px;
+  color: lightskyblue;
+}
+
+/*Descendent Selector */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: lightskyblue;
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+#hero-section img {
+  width: 100%;
+  height: 500px;
+}
+
+#about-section {
+  display: flex;
+}
