@@ -5,9 +5,9 @@ function App() {
 
   return (
     <div>
-      {students.map(function (std) {
+      {students.map(function (std, i) {
         // processing
-        return <h1>{std}</h1>;
+        return <h1 key={i}>{std}</h1>;
       })}
     </div>
   );
