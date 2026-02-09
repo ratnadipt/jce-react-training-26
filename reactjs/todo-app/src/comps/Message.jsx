@@ -1,5 +1,9 @@
 function Message() {
-  return <div className="container"></div>;
+  return (
+    <div className="container">
+      <h1>NO MORE TASK TODAY!</h1>
+    </div>
+  );
 }
 
 export default Message;

@@ -1,10 +1,17 @@
 import Task from "./Task";
 
-function TaskList({ tasks }) {
+function TaskList({ tasks, handleUpdate, handleDelete }) {
   return (
-    <div className="container">
+    <div className="container list">
       {tasks.map(function (task) {
-        return <Task key={task.taskId} task={task} />;
+        return (
+          <Task
+            key={task.taskId}
+            task={task}
+            handleUpdate={handleUpdate}
+            handleDelete={handleDelete}
+          />
+        );
       })}
     </div>
   );

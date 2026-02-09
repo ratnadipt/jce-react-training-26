@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "calibri";
+}
+.app-container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+.container {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid lightskyblue;
+}
+
+.app-title {
+  text-align: center;
+  color: lightskyblue;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.col input {
+  width: 50%;
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+  font-size: 1.1rem;
+}
+.col label {
+  color: lightskyblue;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.col input[name="taskId"] {
+  width: 20%;
+}
+
+.col textarea {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+}
+.col textarea:focus {
+  background-color: lightskyblue;
+}
+.col input:focus {
+  background-color: lightskyblue;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+button[type="reset"] {
+  background-color: tomato;
+}
+button[type="submit"] {
+  background-color: lightskyblue;
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 5px rgba(255, 150, 0, 0.8);
+}
+
+.list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+ol li {
+  width: 150%;
+  display: flex;
+  gap: 15px;
+  cursor: default;
+  padding: 3px;
+}
+
+ol li:hover {
+  background-color: rgb(240, 249, 249);
+  color: black;
+}
+
+.del {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  background-color: tomato;
+  font-weight: lighter;
+}
